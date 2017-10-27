@@ -6,19 +6,43 @@
  .text-uppercase {
    text-transform: uppercase;
  }
-
+/*
 .no-underline {
   text-decoration: none;
 }
+*/
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
 /*El resto de mi código*/
 
+/*Menú de navegación*/
+body {
+  height: 100%;
+}
 nav {
-  /*background-color: #000;*/
+  background-color: #000;
+  font-family: 'Montserrat', sans-serif;
+  /*font-weight: 700px;*/
+}
+
+.nav-bar {
+  width: 45%;
+  display: inline-block;
+  overflow: auto;
+  margin-top: 10px;
+}
+nav .container a {
+  text-decoration: none;
   color: #fff;
 }
 
-/*
-.nav-bar {
+nav .nav-bar ul {
+  padding: 0;
+  float: right;
 
 }
-+/
+nav .nav-bar li {
+  list-style: none;
+  display: inline-block;
+}
