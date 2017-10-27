@@ -1,3 +1,24 @@
 /*
  * Estilos de tu proyecto
  */
+
+ /*Clases reutilizables*/
+ .text-uppercase {
+   text-transform: uppercase;
+ }
+
+.no-underline {
+  text-decoration: none;
+}
+/*El resto de mi código*/
+
+nav {
+  /*background-color: #000;*/
+  color: #fff;
+}
+
+/*
+.nav-bar {
+
+}
++/
