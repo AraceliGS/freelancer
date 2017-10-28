@@ -23,22 +23,11 @@
 font-family: 'Montserrat', sans-serif;*/
 /*El resto de mi código*/
 
-/*Menú de navegación*/
-/*body {
- height: 100%;
-}
-*/
-
 * {
  box-sizing: border-box;
-
 }
 
-
-body {
- width: 100%;
-}
-
+/*Estilos para el menú de navegación*/
 
 nav {
  background-color: #2C3E50;
@@ -47,20 +36,22 @@ nav {
  width: 100%;
  padding: 21px 0 21px;
  letter-spacing: 1px;
+ position: fixed;
+ z-index: 1000;
 }
 
 .nav-bar {
  overflow: auto;
  margin-top: 7px;
  position: relative;
- left: 897px;/*22.8%*/
+ left: 897px;
 }
 nav .container a {
  text-decoration: none;
  color: #fff;
 }
 
-#start-bootstrap {
+.start-bootstrap {
   font-size: 1.9em;
   position: relative;
   left: 397px;
@@ -80,4 +71,35 @@ nav .nav-bar li {
 nav .nav-bar li a {
  font-size: 1em;
  padding: 7px;
+}
+
+/*Estilos para el encabezado/presentación de start bootstrap*/
+
+header {
+  outline: 1px solid orange;
+  padding: 150px 50px 200px;
+}
+
+header .container {
+  position: relative;
+  top: 4em;
+  outline: 1px solid blue;
+  width: 40%;
+  margin: auto;
+  vertical-align: middle;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  /*color: #fff;*/
+}
+
+.container img {
+  position: relative;
+  left: 220px;
+  padding-bottom: 60px;
+}
+
+.container .specialties {
+  display: block;
+  padding-left: 50px;
+  padding-right: 50px;
 }
