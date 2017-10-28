@@ -43,23 +43,30 @@ body {
 nav {
  background-color: #2C3E50;
  font-family: 'Montserrat', sans-serif;
- font-weight: 900px;
+ font-weight: 700px;
  width: 100%;
+ padding: 21px 0 21px;
+ letter-spacing: 1px;
 }
 
 .nav-bar {
- height: 100%;
- width: 45%;
  overflow: auto;
- margin-top: 10px;
+ margin-top: 7px;
  position: relative;
- left: 16%;
+ left: 897px;/*22.8%*/
 }
 nav .container a {
  text-decoration: none;
  color: #fff;
- font-size: 1.3em;
 }
+
+#start-bootstrap {
+  font-size: 1.9em;
+  position: relative;
+  left: 395px;
+  bottom: 15px;
+}
+
 
 nav .nav-bar ul {
  padding: 0;
@@ -72,4 +79,5 @@ nav .nav-bar li {
 
 nav .nav-bar li a {
  font-size: 1em;
+ padding: 7px;
 }
