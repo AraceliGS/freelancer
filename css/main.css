@@ -3,46 +3,73 @@
  */
 
  /*Clases reutilizables*/
- .text-uppercase {
-   text-transform: uppercase;
- }
+.text-uppercase {
+  text-transform: uppercase;
+}
 /*
 .no-underline {
-  text-decoration: none;
+ text-decoration: none;
 }
 */
 
+.inline-block {
+ display: inline-block;
+}
+
+.no-margin {
+ margin: 0;
+}
 /*font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;*/
 /*El resto de mi código*/
 
 /*Menú de navegación*/
-body {
-  height: 100%;
+/*body {
+ height: 100%;
 }
+*/
+
+* {
+ box-sizing: border-box;
+
+}
+
+
+body {
+ width: 100%;
+}
+
+
 nav {
-  background-color: #000;
-  font-family: 'Montserrat', sans-serif;
-  /*font-weight: 700px;*/
+ background-color: #2C3E50;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 900px;
+ width: 100%;
 }
 
 .nav-bar {
-  width: 45%;
-  display: inline-block;
-  overflow: auto;
-  margin-top: 10px;
+ height: 100%;
+ width: 45%;
+ overflow: auto;
+ margin-top: 10px;
+ position: relative;
+ left: 16%;
 }
 nav .container a {
-  text-decoration: none;
-  color: #fff;
+ text-decoration: none;
+ color: #fff;
+ font-size: 1.3em;
 }
 
 nav .nav-bar ul {
-  padding: 0;
-  float: right;
-
+ padding: 0;
+ float: right;
 }
+
 nav .nav-bar li {
-  list-style: none;
-  display: inline-block;
+ list-style: none;
+}
+
+nav .nav-bar li a {
+ font-size: 1em;
 }
