@@ -157,21 +157,38 @@ footer {
   background-color: #2C3E50;
 }
 
+/*Estilos para la parte superior del footer*/
+#footer-top {
+  padding-bottom: 50px;
+}
+
 #footer-top h3 {
   font-family: 'Montserrat', sans-serif;
+  outline: 1px solid gold;
+  text-align: center;
 }
 
 #footer-top p {
   font-family: 'Lato', sans-serif;
+  text-align: center;
 }
+
+#footer-top div {
+  outline: 1px solid red;
+  margin-right: 90px;
+  width: 20%;
+}
+
+/*Estilos a la segunda de las 3 cajas que hay en la parte supeior del footer*/
 
 #footer-top div ul {
   list-style: none;
-  padding-left: 0;
   outline: 1px solid aqua;
+  padding-left: 20px;
   padding-right: 20px;
-  width: 20%;
-  height: 40%;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 20%;
 }
 
 #footer-top div ul li {
@@ -181,7 +198,6 @@ footer {
   border-radius: 25px;
   margin-right: 10px;
   font-size: 1.3em;
-
 }
 
 #footer-top div ul a .fa-facebook {
@@ -214,12 +230,15 @@ footer {
   left: 14.5px;
 }
 
-
-/*
-#footer-top div ul li i {
-  width: 80%;
-  position: relative;
-  left: 16px;
-  top: 15px;
+#footer-top div p a {
+  color: #18BC9C;
+  text-decoration: none;
 }
-*/
+
+/*Estilos para la parte inferior del footer*/
+#footer-bottom {
+  outline: 1px solid silver;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 25px 0;
+}
