@@ -37,7 +37,7 @@
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
  box-sizing: border-box;
- color: #FFF;
+ /*color: #FFF;*/
 }
 
 /*Estilos para el menú de navegación*/
@@ -87,7 +87,7 @@ nav .nav-bar li a {
 
 /*Estilos para el encabezado/presentación de start bootstrap*/
 
-header {
+#principal-section {
   /*outline: 1px solid orange;*/
   padding: 100px 50px 124px;
   /*position: relative;
@@ -95,7 +95,7 @@ header {
   background-color: #18BC9C;
 }
 
-header .container {
+#principal-section .container {
   position: relative;
   top: 70px;
   left: 464px;
@@ -106,7 +106,7 @@ header .container {
   padding-bottom: 50px;
 }
 
-hr {
+#principal-section .star hr {
   border: 2.5px solid;
   width: 103px;
   margin-right: 4px;
@@ -115,7 +115,7 @@ hr {
   bottom: 1px;
 }
 
-.star {
+#principal-section .star {
   /*outline: 1px solid green;*/
   text-align: center;
   margin: 23px auto 20px;
@@ -124,17 +124,21 @@ hr {
 }
 
 
-.star hr .fa-star::after {
+#principal-section .star hr .fa-star::after {
   padding: 0 10px 0 10px;
 }
 
-.container img {
+#principal-section .star hr .fa-star::before {
+  padding: 0 10px 0 10px;
+}
+
+#principal-section .container img {
   position: relative;
   left: 310px; /*240px*/
   padding-bottom: 25px;
 }
 
-.container .name {
+#principal-section .container .name {
   display: block;
   /*width: 100%;*/
   text-align: center;
@@ -146,7 +150,7 @@ hr {
   right: 14px;
 }
 
-.container .specialties {
+#principal-section .container .specialties {
   display: block;
   /*width: 100%;*/
   margin-top: 20px;
@@ -158,9 +162,78 @@ hr {
 }
 
 /*Estilos para la sección Portafolio*/
+#portfolio {
+  padding-top: 100px;
+}
 
+#portfolio h2 {
+  outline: 1px solid gold;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size: 3em;
+  margin: 0;
+  color: #212529;
+  text-align: center;
+  height:50px;
+}
 
+#portfolio .star {
+  outline: 1px solid blue;
+  text-align: center;
+  margin: 30px auto 20px;
+  position: relative;
+  left: 3px;
+  bottom: 6px;
+}
 
+#portfolio hr {
+  border: 2.5px solid #2C3E50;
+  width: 103px;
+  margin-right: 3px;
+  margin-left: 3px;
+  position: relative;
+  bottom: 1px;
+}
+
+#portfolio .fa-star {
+  color: #2C3E50;
+}
+
+#portfolio .star hr .fa-star::after {
+  padding: 0 10px 0 10px;
+}
+
+#portfolio .star hr .fa-star::before {
+  padding: 0 10px 0 10px;
+}
+
+#portfolio .container .pictures {
+  /*outline: 1px solid yellow;*/
+  width: 70%;
+  height: 50%;
+  text-align: center;
+  position: relative;
+  left: 302px;
+  bottom: 40px;
+}
+
+#portfolio .container .pictures .figure {
+  display: inherit;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+#portfolio .container .pictures img {
+  outline: 1px solid orange;
+  width: 350px;
+  height: 250px;
+}
+/*
+#portfolio .container .pictures .search {
+  outline: 1px solid silver;
+  display: inline-block;
+  overflow: hidden;
+}
+*/
 /*Estilos para el Pie de Página*/
 
 footer {
