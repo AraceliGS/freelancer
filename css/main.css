@@ -19,11 +19,23 @@
 .no-margin {
  margin: 0;
 }
-/*font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;*/
+
+/*Colores a usar:
+  #2C3E50 ---> Azul Oscuro
+  #18BC9C ---> Menta
+  #212529 ---> Negro "azulino"
+*/
+
+/* Tipografías de Google Font:
+   font-family: 'Lato', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+*/
+
 /*El resto de mi código*/
 
 * {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
  box-sizing: border-box;
 }
 
@@ -78,28 +90,59 @@ nav .nav-bar li a {
 header {
   outline: 1px solid orange;
   padding: 150px 50px 200px;
+  /*position: relative;
+  top: 107px;*/
+  background-color: #18BC9C;
 }
 
 header .container {
   position: relative;
-  top: 4em;
+  top: 64px;
+  left: 470px;
   outline: 1px solid blue;
-  width: 40%;
-  margin: auto;
+  width: 50%;
   vertical-align: middle;
   padding-top: 30px;
   padding-bottom: 50px;
-  /*color: #fff;*/
+  color: #fff;
+}
+
+hr {
+  border: 2.5px solid #fff;
+  width: 105px;
+  /*position: relative;
+  left: 150px;*/
+}
+
+.star {
+  /*outline: 1px solid green;*/
+  text-align: center;
+}
+
+.star hr .fa-star::after {
+  margin: 0 10px 0 10px;
 }
 
 .container img {
   position: relative;
-  left: 220px;
+  left: 310px; /*240px*/
   padding-bottom: 60px;
+}
+
+.container .name {
+  display: block;
+  /*width: 100%;*/
+  text-align: center;
+  font-size: 4.7em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
 }
 
 .container .specialties {
   display: block;
-  padding-left: 50px;
-  padding-right: 50px;
+  /*width: 100%;*/
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.7em;
 }
