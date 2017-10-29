@@ -61,6 +61,7 @@ nav {
 }
 nav .container a {
  text-decoration: none;
+ color: #FFF;
 }
 
 .start-bootstrap {
@@ -93,6 +94,7 @@ nav .nav-bar li a {
   /*position: relative;
   top: 107px;*/
   background-color: #18BC9C;
+  color: #FFF;
 }
 
 #principal-section .container {
@@ -107,7 +109,7 @@ nav .nav-bar li a {
 }
 
 #principal-section .star hr {
-  border: 2.5px solid;
+  border: 2.5px solid #FFF;
   width: 103px;
   margin-right: 4px;
   margin-left: 3px;
@@ -164,33 +166,36 @@ nav .nav-bar li a {
 /*Estilos para la sección Portafolio*/
 #portfolio {
   padding-top: 100px;
+  padding-bottom: 84px;
+  outline: 1px solid red;
 }
 
 #portfolio h2 {
-  outline: 1px solid gold;
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 1px;
+  /*outline: 1px solid gold;*/
+  font-family: 'Montserrat', sans-serif;
+  /*letter-spacing: 1px;*/
   font-size: 3em;
   margin: 0;
+  /*padding-top: 7px;*/
   color: #212529;
   text-align: center;
   height:50px;
 }
 
 #portfolio .star {
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
   text-align: center;
   margin: 30px auto 20px;
   position: relative;
-  left: 3px;
-  bottom: 6px;
+  left: 0;
+  bottom: 11px;
 }
 
 #portfolio hr {
   border: 2.5px solid #2C3E50;
   width: 103px;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-right: 4px;
+  margin-left: 4px;
   position: relative;
   bottom: 1px;
 }
@@ -213,17 +218,17 @@ nav .nav-bar li a {
   height: 50%;
   text-align: center;
   position: relative;
-  left: 302px;
-  bottom: 40px;
+  left: 300px;
+  bottom: 41px;
 }
 
 #portfolio .container .pictures .figure {
   display: inherit;
-  margin-top: 30px;
-  margin-right: 30px;
+  margin-top: 26px;
+  margin-right: 26px;
 }
 #portfolio .container .pictures img {
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
   width: 350px;
   height: 250px;
 }
@@ -234,11 +239,106 @@ nav .nav-bar li a {
   overflow: hidden;
 }
 */
+
+/*Estilos para la sección about*/
+
+#about {
+  background-color: #18BC9C;
+  padding-top: 40px;
+  padding-bottom: 87px;
+}
+
+#about h2 {
+  /*outline: 1px solid gold;*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: #FFF;
+  margin: 0;
+  text-align: center;
+  height: 50px;
+  position: relative;
+  top: 43px;
+  padding-right: 4px;
+}
+
+#about .star {
+  /*outline: 1px solid blue;*/
+  text-align: center;
+  color: #FFF;
+  margin: 30px auto 20px;
+  position: relative;
+  right: 0;
+  top: 32px;
+}
+
+#about hr {
+  border: 2.5px solid #FFF;
+  width: 103px;
+  margin-right: 4px;
+  margin-left: 4px;
+  position: relative;
+  bottom: 1px;
+}
+
+#about .star hr .fa-star::after {
+  padding: 0 10px 0 10px;
+}
+
+#about .star hr .fa-star::before {
+  padding: 0 10px 0 10px;
+}
+
+#about p {
+  color: #FFF;
+  width: 350px;
+  height: 180px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin-right: 26px;
+  position: relative;
+  left: 586px;
+  /*outline: 1px solid purple;*/
+}
+
+#about .paragraph_1 {
+  position: relative;
+  top: 8px;
+}
+
+#about .paragraph_2 {
+  position: relative;
+  bottom: 22px;
+}
+
+#about button {
+  display: block;
+  outline: 0;
+  background-color: #18BC9C;
+  border: 2px solid #FFF;
+  color: #FFF;
+  width: 210px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  position: relative;
+  left: 845px;
+  bottom: 12px;
+  letter-spacing: 0.2px;
+}
+
+#about button i {
+  font-size: 1em;
+}
+
 /*Estilos para el Pie de Página*/
 
 footer {
   outline: 1px solid red;
   background-color: #2C3E50;
+  color: #FFF;
 }
 
 /*Estilos para la parte superior del footer*/
@@ -315,6 +415,7 @@ footer {
   font-size: 1.25em;
   border: 2px solid #FFF;
   border-radius: inherit;
+  color: #FFF;
 }
 
 #footer-top .box_2 i:hover, #footer-top .box_2 i:active {
