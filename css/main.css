@@ -37,6 +37,7 @@
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
  box-sizing: border-box;
+ color: #FFF;
 }
 
 /*Estilos para el menú de navegación*/
@@ -60,7 +61,6 @@ nav {
 }
 nav .container a {
  text-decoration: none;
- color: #fff;
 }
 
 .start-bootstrap {
@@ -104,11 +104,10 @@ header .container {
   vertical-align: middle;
   padding-top: 30px;
   padding-bottom: 50px;
-  color: #fff;
 }
 
 hr {
-  border: 2.5px solid #fff;
+  border: 2.5px solid;
   width: 105px;
   /*position: relative;
   left: 150px;*/
@@ -120,7 +119,7 @@ hr {
 }
 
 .star hr .fa-star::after {
-  margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
 }
 
 .container img {
@@ -146,3 +145,81 @@ hr {
   font-family: 'Lato', sans-serif;
   font-size: 1.7em;
 }
+
+/*Estilos para la sección Portafolio*/
+
+
+
+/*Estilos para el Pie de Página*/
+
+footer {
+  outline: 1px solid red;
+  background-color: #2C3E50;
+}
+
+#footer-top h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#footer-top p {
+  font-family: 'Lato', sans-serif;
+}
+
+#footer-top div ul {
+  list-style: none;
+  padding-left: 0;
+  outline: 1px solid aqua;
+  padding-right: 20px;
+  width: 20%;
+  height: 40%;
+}
+
+#footer-top div ul li {
+  border: 2px solid #FFF;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+  font-size: 1.3em;
+
+}
+
+#footer-top div ul a .fa-facebook {
+  position: relative;
+  top: 10.5px;
+  left: 17.5px;
+}
+
+#footer-top div ul a .fa-google-plus {
+  position: relative;
+  top: 11px;
+  left: 11px;
+}
+
+#footer-top div ul a .fa-twitter {
+  position: relative;
+  top: 11.5px;
+  left: 14px;
+}
+
+#footer-top div ul a .fa-linkedin {
+  position: relative;
+  top: 11px;
+  left: 15px;
+}
+
+#footer-top div ul a .fa-dribbble {
+  position: relative;
+  top: 10.5px;
+  left: 14.5px;
+}
+
+
+/*
+#footer-top div ul li i {
+  width: 80%;
+  position: relative;
+  left: 16px;
+  top: 15px;
+}
+*/
