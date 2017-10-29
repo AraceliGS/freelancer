@@ -89,7 +89,7 @@ nav .nav-bar li a {
 
 header {
   /*outline: 1px solid orange;*/
-  padding: 67px 50px 124px;
+  padding: 100px 50px 124px;
   /*position: relative;
   top: 107px;*/
   background-color: #18BC9C;
@@ -170,78 +170,108 @@ footer {
 
 /*Estilos para la parte superior del footer*/
 #footer-top {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
+  line-height: 1.5;
 }
 
 #footer-top h3 {
   font-family: 'Montserrat', sans-serif;
   outline: 1px solid gold;
   text-align: center;
+  font-size: 1.55em;
 }
 
 #footer-top p {
   font-family: 'Lato', sans-serif;
   text-align: center;
+  font-size: 1.25em;
 }
 
 #footer-top div {
   outline: 1px solid red;
-  margin-right: 90px;
-  width: 20%;
+  margin-top: 5px;
+  margin-right: 30px;
+  width: 380px;
+  /*height: 170px;*/
+  position: relative;
+  left: 382px;
 }
 
-/*Estilos a la segunda de las 3 cajas que hay en la parte supeior del footer*/
+/*Estilos a la primera de las 3 cajas que hay en la parte superior del footer*/
+/*.box_1 {
+  position: relative;
+  top:
+}*/
 
-#footer-top div ul {
-  list-style: none;
-  outline: 1px solid aqua;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 5px;
+/*Estilos a la segunda de las 3 cajas que hay en la parte superior del footer*/
+
+#footer-top .box_2 {
+  position: relative;
+  bottom: 10px;
+}
+
+#footer-top .box_2 ul {
+  /*outline: 1px solid aqua;*/
+  height: 60px;
   width: 100%;
-  height: 20%;
 }
 
-#footer-top div ul li {
-  border: 2px solid #FFF;
-  width: 50px;
+#footer-top .box_2 li {
+  /*outline: 1px solid gold;*/
   height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+#footer-top .box_2 a {
+  /*outline: 1px solid fuchsia;*/
+  display: inherit; /*Inherit me permite que este elemento herede el valor de display de su padre. Además me permite no tener que estar colocandolo en mi index.html*/
+  height: inherit;
+  width: inherit;
   border-radius: 25px;
-  margin-right: 10px;
-  font-size: 1.3em;
 }
 
-#footer-top div ul a .fa-facebook {
+#footer-top .box_2 i {
+  /*outline: 1px solid teal;*/
+  display: inherit;
+  height: inherit;/*20px;*/
+  width: inherit;/*25px;*/
+  text-align: center;
+  padding-top: 13px;
+  padding-left: 0.9px;
+  font-size: 1.25em;
+  border: 2px solid #FFF;
+  border-radius: inherit;
+}
+
+#footer-top .box_2 i:hover, #footer-top .box_2 i:active {
+  background: #FFF;
+  color: #18BC9C;
+  outline: 0;
+}
+
+
+/*Estilos a la tercera de las 3 cajas que hay en la parte superior del footer*/
+
+#footer-top .box_3 {
   position: relative;
-  top: 10.5px;
-  left: 17.5px;
+  top: 36px;
 }
 
-#footer-top div ul a .fa-google-plus {
+#footer-top .box_3 h3{
+  /*padding-bottom: 7px;*/
+}
+
+#footer-top .box_3 p {
+  outline: 1px solid green;
+  line-height: 1.5;
   position: relative;
-  top: 11px;
-  left: 11px;
+  width: 360px;
+  bottom: 10px;
+  left: 10px;
 }
 
-#footer-top div ul a .fa-twitter {
-  position: relative;
-  top: 11.5px;
-  left: 14px;
-}
-
-#footer-top div ul a .fa-linkedin {
-  position: relative;
-  top: 11px;
-  left: 15px;
-}
-
-#footer-top div ul a .fa-dribbble {
-  position: relative;
-  top: 10.5px;
-  left: 14.5px;
-}
-
-#footer-top div p a {
+#footer-top .box_3 p a {
   color: #18BC9C;
   text-decoration: none;
 }
@@ -251,5 +281,5 @@ footer {
   outline: 1px solid silver;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  padding: 25px 0;
+  padding: 28.5px 0;
 }
