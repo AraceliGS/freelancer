@@ -32,11 +32,13 @@
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
  box-sizing: border-box;
+
  /*color: #FFF;*/
 }
 
 body {
   margin: 0;
+  padding: 0;
 }
 /*Estilos para el menú de navegación*/
 
@@ -45,7 +47,7 @@ nav {
  font-family: 'Montserrat', sans-serif;
  font-weight: 700px;
  width: 100%;
- padding: 21px 0 21px;
+ padding: 2.2% 0 1.6%;
  letter-spacing: 1px;
  position: fixed;
  z-index: 1000;
@@ -53,15 +55,15 @@ nav {
 
 .nav-bar {
  overflow: auto;
- margin-top: 7px;
+ /*margin-top: 7px;*/
  position: relative;
- left: 897px;
+ left: 45.5%;/*left: 897px;*/
 }
 
 .start-bootstrap {
   font-size: 1.9em;
   position: relative;
-  left: 397px;
+  left: 6.5%/*397px*/;
   bottom: 15px;
 }
 
@@ -119,7 +121,7 @@ nav .nav-bar li a:active {
   border: 2.5px solid #FFF;
   width: 103px;
   margin-right: 4px;
-  margin-left: 3px;
+  margin-left: 4px;
   position: relative;
   bottom: 1px;
 }
@@ -129,7 +131,7 @@ nav .nav-bar li a:active {
   text-align: center;
   margin: 23px auto 20px;
   position: relative;
-  right: 13px;
+  right: 26%/*13px*/;
 }
 
 
@@ -143,7 +145,7 @@ nav .nav-bar li a:active {
 
 #principal-section .container img {
   position: relative;
-  left: 310px; /*240px*/
+  left: 3%; /*310px*/
   padding-bottom: 25px;
 }
 
@@ -156,18 +158,18 @@ nav .nav-bar li a:active {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   position: relative;
-  right: 14px;
+  right: 25%;/*14px*/
 }
 
 #principal-section .container .specialties {
   display: block;
   /*width: 100%;*/
-  margin-top: 20px;
+  margin-top: 2%/*20px*/;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 1.75em;
   position: relative;
-  right: 13px;
+  right: 25%/*13px*/;
 }
 
 /*Estilos para la sección Portafolio*/
@@ -220,22 +222,23 @@ nav .nav-bar li a:active {
 }
 
 #portfolio .container .pictures {
-  /*outline: 1px solid yellow;*/
+  outline: 1px solid yellow;
   width: 70%;
   height: 50%;
   text-align: center;
   position: relative;
-  left: 300px;
-  bottom: 41px;
+  left: 16%/*300px*/;
+  bottom: 38px;
 }
 
 #portfolio .container .pictures .figure {
   display: inherit;
-  margin-top: 26px;
-  margin-right: 26px;
+  margin-top: 2%/*26px*/;
+  margin-right: 2%/*26px*/;
 }
 #portfolio .container .pictures img {
   /*outline: 1px solid orange;*/
+  display: inherit;
   width: 350px;
   height: 253px;
 }
@@ -258,8 +261,8 @@ nav .nav-bar li a:active {
 
 #about {
   background-color: #18BC9C;
-  padding-top: 55px;
-  padding-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 85px;
 }
 
 #about h2 {
@@ -272,7 +275,8 @@ nav .nav-bar li a:active {
   height: 50px;
   position: relative;
   top: 43px;
-  padding-right: 4px;
+  right: 0.2%;
+  padding-left: 0.3%;
 }
 
 #about .star {
@@ -311,7 +315,7 @@ nav .nav-bar li a:active {
   line-height: 1.5;
   margin-right: 26px;
   position: relative;
-  left: 586px;
+  left: 22%/*586px*/;
   padding-bottom: 10px;
   /*outline: 1px solid purple;*/
 }
@@ -341,7 +345,7 @@ nav .nav-bar li a:active {
   font-family: 'Lato', sans-serif;
   font-size: 1.2em;
   position: relative;
-  left: 845px;
+  left: 42%/*845px*/;
   bottom: 10px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -366,6 +370,7 @@ nav .nav-bar li a:active {
 */
 #contact .container {
    padding-top: 320px;
+   padding-bottom: 0;
   /*outline: 1px solid lightgreen;*/
 }
 
@@ -389,7 +394,7 @@ nav .nav-bar li a:active {
   margin: 30px auto 20px;
   position: relative;
   right: 0;
-  bottom: 210px;
+  bottom: 215px;
 }
 
 #contact hr {
@@ -479,8 +484,8 @@ nav .nav-bar li a:active {
   font-family: 'Lato', sans-serif;
   font-size: 1.25em;
   position: relative;
-  left: 585px;
-  bottom: 1px;
+  left: 23%/*585px*/;
+  bottom: 0.5%/*1px*/;
   letter-spacing: 0.2px;
   vertical-align: middle;
 }
@@ -521,18 +526,25 @@ footer {
 
 #footer-top div {
   /*outline: 1px solid red;*/
-  margin-top: 5px;
-  margin-right: 30px;
+  /*margin-top: 5px;*/
+  margin-right: 10px;
   width: 380px;
   position: relative;
-  left: 382px;
+  left: 2%;
 }
 
 /*Estilos a la primera de las 3 cajas que hay en la parte superior del footer*/
+.box_1 {
+  padding-left: 5%;
+}
+
+.box_1 h3 {
+  padding-bottom: 3px;
+}
 
 .box_1 p {
   position: relative;
-  bottom: 5px;
+  bottom: 9px;
   /*outline: 1px solid green;*/
   width: 100%;
   line-height: 1.5;
@@ -540,9 +552,11 @@ footer {
 
 /*Estilos a la segunda de las 3 cajas que hay en la parte superior del footer*/
 
+
 #footer-top .box_2 {
   position: relative;
-  bottom: 16px;
+  bottom: 21px;
+  left: 3.5%;
 }
 
 #footer-top .box_2 ul {
@@ -555,7 +569,9 @@ footer {
   /*outline: 1px solid gold;*/
   height: 50px;
   width: 50px;
-  margin: 5px;
+  margin: 2px;
+  position: relative;
+  left: 2%;
 }
 
 #footer-top .box_2 a {
@@ -591,7 +607,7 @@ footer {
 
 #footer-top .box_3 {
   position: relative;
-  top: 30px;
+  top: 28px;
 }
 
 #footer-top .box_3 p {
