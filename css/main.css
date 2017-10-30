@@ -18,7 +18,7 @@
   #212529 ---> Negro "azulino"
   #EEE ---> Plomizo
   #FFF ---> Blanco
-  #28a745 ---> Color para el button send
+  #28A745 ---> Color para el button send
 */
 
 /* Tipografías de Google Font:
@@ -57,10 +57,6 @@ nav {
  position: relative;
  left: 897px;
 }
-nav .container a {
- text-decoration: none;
- color: #FFF;
-}
 
 .start-bootstrap {
   font-size: 1.9em;
@@ -69,6 +65,10 @@ nav .container a {
   bottom: 15px;
 }
 
+nav .container a {
+ text-decoration: none;
+ color: #FFF;
+}
 
 nav .nav-bar ul {
  padding: 0;
@@ -84,6 +84,15 @@ nav .nav-bar li a {
  padding: 7px;
 }
 
+nav .nav-bar li a:hover {
+  color: #18BC9C;
+}
+/*
+nav .nav-bar li a:active {
+  color: #FFF;
+  background-color: #18BC9C;
+}
+*/
 /*Estilos para el encabezado/presentación de start bootstrap*/
 
 #principal-section {
@@ -165,7 +174,7 @@ nav .nav-bar li a {
 #portfolio {
   padding-top: 100px;
   padding-bottom: 84px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 
 #portfolio h2 {
@@ -228,15 +237,22 @@ nav .nav-bar li a {
 #portfolio .container .pictures img {
   /*outline: 1px solid orange;*/
   width: 350px;
-  height: 250px;
+  height: 253px;
 }
 /*
 #portfolio .container .pictures .search {
   outline: 1px solid silver;
-  display: inline-block;
-  overflow: hidden;
+  width: 70%;
+  height: 50%;
+  text-align: center;
+  position: relative;
+  left: 300px;
+  bottom: 41px;
 }
-*/
+
+#portfolio .container .pictures .search i {
+  color: #FFF;
+}*/
 
 /*Estilos para la sección about*/
 
@@ -328,6 +344,7 @@ nav .nav-bar li a {
   left: 845px;
   bottom: 10px;
   letter-spacing: 0.2px;
+  text-align: center;
 }
 
 #about a i {
@@ -336,15 +353,20 @@ nav .nav-bar li a {
   bottom: 1px;
 }
 
-/*Estilos para la sección Contact/Contact me*/
-
-#contact {
-  /*outline: 1px solid teal;*/
+#about a:hover, #about a:active {
+  background-color: #FFF;
+  color: #18BC9C;
 }
 
+/*Estilos para la sección Contact/Contact me*/
+/*
+#contact {
+  outline: 1px solid teal;
+}
+*/
 #contact .container {
-  padding-top: 320px;
-  outline: 1px solid lightgreen;
+   padding-top: 320px;
+  /*outline: 1px solid lightgreen;*/
 }
 
 #contact h2 {
@@ -401,7 +423,7 @@ nav .nav-bar li a {
 
 #contact .small-container {
   /*outline: 1px solid blue;*/
-  height: 198px;
+  height: 110px;
   width: 730px;
   padding-top: 30px;
   border-bottom: 1px solid #EEE;
@@ -422,7 +444,7 @@ nav .nav-bar li a {
 
 #contact #info #different-container {
   /*outline: 1px solid maroon;*/
-  height: 198px;
+  height: 258px;
   width: 730px;
   border-bottom: 1px solid #EEE;
 }
@@ -448,7 +470,7 @@ nav .nav-bar li a {
   display: block;
   outline: 0;
   background-color: #18BC9C;
-  border: 2px solid #FFF;
+  border: 3px solid #18BC9C;
   color: #FFF;
   width: 85px;
   height: 55px;
@@ -458,8 +480,14 @@ nav .nav-bar li a {
   font-size: 1.25em;
   position: relative;
   left: 585px;
-  /*bottom: 12px;*/
+  bottom: 1px;
   letter-spacing: 0.2px;
+  vertical-align: middle;
+}
+
+#contact #info button:active {
+  background-color: #28A745;
+  border-color: rgb(40, 167, 69, 0);
 }
 
 /*Estilos para el Pie de Página*/
@@ -492,11 +520,10 @@ footer {
 }
 
 #footer-top div {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin-top: 5px;
   margin-right: 30px;
   width: 380px;
-  /*height: 170px;*/
   position: relative;
   left: 382px;
 }
@@ -506,7 +533,7 @@ footer {
 .box_1 p {
   position: relative;
   bottom: 5px;
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
   width: 100%;
   line-height: 1.5;
 }
@@ -542,8 +569,8 @@ footer {
 #footer-top .box_2 i {
   /*outline: 1px solid teal;*/
   display: inherit;
-  height: inherit;/*20px;*/
-  width: inherit;/*25px;*/
+  height: inherit;
+  width: inherit;
   text-align: center;
   padding-top: 13px;
   padding-left: 0.9px;
