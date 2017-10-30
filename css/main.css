@@ -244,8 +244,8 @@ nav .nav-bar li a {
 
 #about {
   background-color: #18BC9C;
-  padding-top: 40px;
-  padding-bottom: 87px;
+  padding-top: 55px;
+  padding-bottom: 90px;
 }
 
 #about h2 {
@@ -298,6 +298,7 @@ nav .nav-bar li a {
   margin-right: 26px;
   position: relative;
   left: 586px;
+  padding-bottom: 10px;
   /*outline: 1px solid purple;*/
 }
 
@@ -311,7 +312,9 @@ nav .nav-bar li a {
   bottom: 22px;
 }
 
-#about button {
+#about a {
+  outline: 1px solid skyblue;
+  text-decoration: none;
   display: block;
   outline: 0;
   background-color: #18BC9C;
@@ -329,8 +332,71 @@ nav .nav-bar li a {
   letter-spacing: 0.2px;
 }
 
-#about button i {
+#about a i {
   font-size: 1em;
+}
+
+/*Estilos para la sección Contact/Contact me*/
+
+#contact {
+  /*outline: 1px solid teal;*/
+}
+
+#contact .container {
+  padding-top: 320px;
+  padding-bottom: 384px;
+  outline: 1px solid lightgreen;
+}
+
+#contact h2 {
+  outline: 1px solid gold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: #212529;
+  margin: 0;
+  text-align: center;
+  height: 50px;
+  position: relative;
+  bottom: 205px;
+  /*padding-right: 4px;*/
+}
+
+#contact .star {
+  outline: 1px solid skyblue;
+  text-align: center;
+  color: #2C3E50;
+  margin: 30px auto 20px;
+  position: relative;
+  right: 0;
+  bottom: 210px;
+}
+
+#contact hr {
+  border: 2.5px solid #2C3E50;
+  width: 103px;
+  margin-right: 4px;
+  margin-left: 4px;
+  position: relative;
+  bottom: 1px;
+}
+
+#contact .star hr .fa-star::after {
+  padding: 0 10px 0 10px;
+}
+
+#contact .star hr .fa-star::before {
+  padding: 0 10px 0 10px;
+}
+
+#contact form input {
+  outline: 1px solid pink;
+  display: block;
+
+}
+
+#contact button {
+  margin-top: 23px;
+  display: block;
 }
 
 /*Estilos para el Pie de Página*/
