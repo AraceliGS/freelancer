@@ -6,24 +6,19 @@
 .text-uppercase {
   text-transform: uppercase;
 }
-/*
-.no-underline {
- text-decoration: none;
-}
-*/
 
 .inline-block {
  display: inline-block;
 }
 
-.no-margin {
- margin: 0;
-}
 
 /*Colores a usar:
   #2C3E50 ---> Azul Oscuro
   #18BC9C ---> Menta
   #212529 ---> Negro "azulino"
+  #EEE ---> Plomizo
+  #FFF ---> Blanco
+  #28a745 ---> Color para el button send
 */
 
 /* Tipografías de Google Font:
@@ -40,6 +35,9 @@
  /*color: #FFF;*/
 }
 
+body {
+  margin: 0;
+}
 /*Estilos para el menú de navegación*/
 
 nav {
@@ -328,12 +326,14 @@ nav .nav-bar li a {
   font-size: 1.2em;
   position: relative;
   left: 845px;
-  bottom: 12px;
+  bottom: 10px;
   letter-spacing: 0.2px;
 }
 
 #about a i {
   font-size: 1em;
+  position: relative;
+  bottom: 1px;
 }
 
 /*Estilos para la sección Contact/Contact me*/
@@ -344,12 +344,11 @@ nav .nav-bar li a {
 
 #contact .container {
   padding-top: 320px;
-  padding-bottom: 384px;
   outline: 1px solid lightgreen;
 }
 
 #contact h2 {
-  outline: 1px solid gold;
+  /*outline: 1px solid gold;*/
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   color: #212529;
@@ -362,7 +361,7 @@ nav .nav-bar li a {
 }
 
 #contact .star {
-  outline: 1px solid skyblue;
+  /*outline: 1px solid skyblue;*/
   text-align: center;
   color: #2C3E50;
   margin: 30px auto 20px;
@@ -388,36 +387,102 @@ nav .nav-bar li a {
   padding: 0 10px 0 10px;
 }
 
-#contact form input {
-  outline: 1px solid pink;
-  display: block;
-
+#contact #info {
+  /*outline: 1px solid silver;*/
+  /*height: 1000px;*/
+  text-align: center;
+  position: relative;
+  bottom: 210px;
 }
 
-#contact button {
-  margin-top: 23px;
+#contact #info #info form {
+  /*outline: 1px solid green;*/
+}
+
+#contact .small-container {
+  /*outline: 1px solid blue;*/
+  height: 198px;
+  width: 730px;
+  padding-top: 30px;
+  border-bottom: 1px solid #EEE;
+}
+
+#contact #info .small-container input {
+  /*outline: 1px solid pink;*/
+  display: inline-block;
+  /*margin-bottom: 50px;*/
+  height: 25%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  color: #2C3E50;
+  border: none;
+  outline: 0;
+}
+
+#contact #info #different-container {
+  /*outline: 1px solid maroon;*/
+  height: 198px;
+  width: 730px;
+  border-bottom: 1px solid #EEE;
+}
+
+#contact #info #different-container input{
+  /*outline: 1px solid pink;*/
+  display: inline-block;
+  /*margin-bottom: 50px;*/
+  border: none;
+  height: 50%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  color: #2C3E50;
+  outline: 0;
+}
+
+#contact #info button {
+  margin-top: 25px;
   display: block;
+  /*outline: 1px solid skyblue;*/
+  text-decoration: none;
+  display: block;
+  outline: 0;
+  background-color: #18BC9C;
+  border: 2px solid #FFF;
+  color: #FFF;
+  width: 85px;
+  height: 55px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25em;
+  position: relative;
+  left: 585px;
+  /*bottom: 12px;*/
+  letter-spacing: 0.2px;
 }
 
 /*Estilos para el Pie de Página*/
 
 footer {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   background-color: #2C3E50;
   color: #FFF;
 }
 
 /*Estilos para la parte superior del footer*/
 #footer-top {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   line-height: 1.5;
 }
 
 #footer-top h3 {
   font-family: 'Montserrat', sans-serif;
-  outline: 1px solid gold;
+  /*outline: 1px solid gold;*/
   text-align: center;
-  font-size: 1.55em;
+  font-size: 1.65em;
+  position: relative;
+  bottom: 8px;
 }
 
 #footer-top p {
@@ -437,16 +502,20 @@ footer {
 }
 
 /*Estilos a la primera de las 3 cajas que hay en la parte superior del footer*/
-/*.box_1 {
+
+.box_1 p {
   position: relative;
-  top:
-}*/
+  bottom: 5px;
+  outline: 1px solid green;
+  width: 100%;
+  line-height: 1.5;
+}
 
 /*Estilos a la segunda de las 3 cajas que hay en la parte superior del footer*/
 
 #footer-top .box_2 {
   position: relative;
-  bottom: 10px;
+  bottom: 16px;
 }
 
 #footer-top .box_2 ul {
@@ -495,15 +564,11 @@ footer {
 
 #footer-top .box_3 {
   position: relative;
-  top: 36px;
-}
-
-#footer-top .box_3 h3{
-  /*padding-bottom: 7px;*/
+  top: 30px;
 }
 
 #footer-top .box_3 p {
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
   line-height: 1.5;
   position: relative;
   width: 360px;
@@ -518,7 +583,7 @@ footer {
 
 /*Estilos para la parte inferior del footer*/
 #footer-bottom {
-  outline: 1px solid silver;
+  /*outline: 1px solid silver;*/
   text-align: center;
   font-family: 'Lato', sans-serif;
   padding: 28.5px 0;

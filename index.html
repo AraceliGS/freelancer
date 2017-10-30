@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body class="no-margin">
+  <body>
     <!-- Menú de Navegación -->
     <nav>
       <div class="container text-uppercase">
@@ -127,17 +127,27 @@
             <i class="fa fa-star fa-2x" aria-hidden="true"></i>
           <hr class="inline-block">
         </div>
-        <form class="inline-block" action="index.html" method="post">
-          <input class="" type="text" name="name" value="" placeholder="Name">
-          <p></p>
-          <input class="" type="text" name="email-address" value="" placeholder="Email Address">
-          <p></p>
-          <input class="" type="text" name="phone number" value="" placeholder="Phone Number">
-          <p></p>
-          <input class="" type="text" name="message" value="" placeholder="Message">
-          <p></p>
-        </form>
-       <button type="submit" name="button">Send</button>
+        <div id="info">
+          <form class="inline-block" action="index.html" method="post">
+            <div class="small-container">
+              <input type="text" name="name" placeholder="Name">
+            </div>
+            <div class="small-container">
+              <input type="text" name="email-address" value="" placeholder="Email Address">
+            </div>
+            <div class="small-container">
+              <input type="text" name="phone number" value="" placeholder="Phone Number">
+            </div>
+            <div id="different-container">
+              <input type="text" name="message" value="" placeholder="Message">
+            </div>
+            <!-- <p></p> -->
+            <!-- <p></p> -->
+            <!-- <p></p> -->
+            <!-- <p></p> -->
+          </form>
+         <button type="submit" name="button"><strong>Send</strong></button>
+       </div>
       </div>
     </section>
     <!-- Pie de página -->
