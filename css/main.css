@@ -58,7 +58,9 @@ nav {
  font-family: 'Montserrat', sans-serif;
  font-weight: 700px;
  width: 100%;
+ height: 100px;
  padding: 2.2% 0 1.6%;
+ /*margin: 2% 11% 0%*/;
  letter-spacing: 1px;
  position: fixed;
  z-index: 1000;
@@ -90,6 +92,8 @@ nav .nav-bar ul {
 
 nav .nav-bar li {
  list-style: none;
+ /*padding: 12px;*/
+ /*margin: 0;*/
 }
 
 nav .nav-bar li a {
@@ -107,153 +111,135 @@ nav .nav-bar li a:active {
 }
 */
 /*Estilos para el encabezado/presentación de start bootstrap*/
+/*
 
+/*
 #principal-section {
   /*outline: 1px solid orange;*/
-  padding: 100px 50px 124px;
+  /*padding: 100px 50px 124px;*/
   /*position: relative;
   top: 107px;*/
-  background-color: #18BC9C;
+  /*background-color: #18BC9C;
   color: #FFF;
+  width: 100%;*/
 }
 
-#principal-section .container {
+/*#principal-section .container {
   position: relative;
   top: 70px;
-  left: 464px;
-  /*outline: 1px solid blue;*/
-  width: 50%;
+  left: 35%;/*464px;
+  outline: 1px solid blue;
+  width: 70%;
   vertical-align: middle;
   padding-top: 30px;
   padding-bottom: 50px;
 }
 
-#principal-section .star {
-  /*outline: 1px solid green;*/
+/*#principal-section .star {*/
+  /*outline: 1px solid green;
   text-align: center;
   margin: 23px auto 20px;
   position: relative;
   right: 26%/*13px*/;
 }
 
-#principal-section .star hr {
+/*#principal-section .star hr {
   border: 2.5px solid #FFF;
-  width: 103px;
-  margin-right: 4px;
+  /*width: 103px;*/
+  /*margin-right: 4px;
   margin-left: 4px;
   position: relative;
   bottom: 1px;
-}
+}*/
 
-#principal-section .container img {
-  position: relative;
-  left: 3%; /*310px*/
-  padding-bottom: 25px;
-}
-
-#principal-section .container .name {
-  display: block;
+/*#principal-section .container img {*/
+/*display: block;
   /*width: 100%;*/
-  text-align: center;
-  font-size: 4.79em;
-  padding-top: 0.5px;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1px;
-  position: relative;
-  right: 25%;/*14px*/
-}
-
-#principal-section .container .specialties {
-  display: block;
-  /*width: 100%;*/
-  margin-top: 2%/*20px*/;
-  text-align: center;
+  /*margin-top: 2%/*20px*/;
+  /*text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 1.75em;
   position: relative;
   right: 25%/*13px*/;
-}
+/*#principal-section .star hr .fa-star::after {*/
+  /*padding: 0 10px 0 10px;
+}*/
 
-#principal-section .star hr .fa-star::after {
-  padding: 0 10px 0 10px;
-}
-
-#principal-section .star hr .fa-star::before {
-  padding: 0 10px 0 10px;
-}
+/*#principal-section .star hr .fa-star::before {*/
+  /*padding: 0 10px 0 10px;
+}*/
 
 /*Estilos para la sección Portafolio*/
-#portfolio {
-  padding-top: 100px;
+/*#portfolio {*/
+  /*padding-top: 100px;
   padding-bottom: 84px;
+  width: 100%;
   /*outline: 1px solid red;*/
-}
-
-#portfolio h2 {
+/*#portfolio h2 {*/
   /*outline: 1px solid gold;*/
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;
   /*letter-spacing: 1px;*/
-  font-size: 3em;
+  /*font-size: 3em;
   margin: 0;
   /*padding-top: 7px;*/
-  color: #212529;
+  /*color: #212529;
   text-align: center;
   height:50px;
-}
+}*/
 
-#portfolio hr {
+/*#portfolio hr {
   border: 2.5px solid #2C3E50;
   width: 103px;
   margin-right: 4px;
   margin-left: 4px;
   position: relative;
   bottom: 1px;
-}
+}*/
 
-#portfolio .star {
-  /*outline: 1px solid blue;*/
+/*#portfolio .star {*/
+  /*outline: 1px solid blue;
   text-align: center;
   margin: 30px auto 20px;
   position: relative;
   right: 1px;
   bottom: 13px;
-}
+}*/
 
-#portfolio .fa-star {
+/*#portfolio .fa-star {
   color: #2C3E50;
-}
+}*/
 
-#portfolio .container .pictures img {
-  /*outline: 1px solid orange;*/
+/*#portfolio .container .pictures img {
+  /*outline: 1px solid orange;
   display: inherit;
   width: 350px;
-  height: 253px;
-}
+  height: 253px;}*/
 
-#portfolio .container .pictures {
-  /*outline: 1px solid yellow;*/
+
+/*#portfolio .container .pictures {
+  outline: 1px solid yellow;
   min-width: 1000px;
   height: 580px;
   text-align: center;
   position: relative;
   left: 1%/*300px*/;
-  bottom: 43px;
-}
-
+  /*bottom: 43px;
+}*/
+/*
 #portfolio .container .pictures .figure {
   display: inherit;
   margin-top: 2%/*26px*/;
-  margin-right: 2%/*26px*/;
+  /*margin-right: 2%/*26px*/;
 }
-
+/*
 #portfolio .star hr .fa-star::after {
   padding: 0 10px 0 10px;
-}
-
+}*/
+/*
 #portfolio .star hr .fa-star::before {
   padding: 0 10px 0 10px;
 }
-
+*/
 
 /*
 #portfolio .container .pictures .search {
