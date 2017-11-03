@@ -43,8 +43,6 @@
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
  box-sizing: border-box;
-
- /*color: #FFF;*/
 }
 
 body {
@@ -53,14 +51,18 @@ body {
 }
 /*Estilos para el menú de navegación*/
 
+header {
+  width: 100%;
+  height: 100px;
+}
+
 nav {
  background-color: #2C3E50;
  font-family: 'Montserrat', sans-serif;
  font-weight: 700px;
  width: 100%;
  height: 100px;
- padding: 2.2% 0 1.6%;
- /*margin: 2% 11% 0%*/;
+ padding: 0.8% 0 1.6%;
  letter-spacing: 1px;
  position: fixed;
  z-index: 1000;
@@ -68,72 +70,105 @@ nav {
 
 .nav-bar {
  overflow: auto;
- /*margin-top: 7px;*/
  position: relative;
- left: 45.5%;/*left: 897px;*/
+ left: 45.5%;
 }
 
 .start-bootstrap {
-  font-size: 1.9em;
-  position: relative;
-  left: 6.5%/*397px*/;
-  bottom: 15px;
+    font-size: 1.9em;
+    position: relative;
+    left: 6.5%;
+    bottom: 29px;
+    text-align: left;
 }
 
-nav .container a {
+header nav .container a {
  text-decoration: none;
  color: #FFF;
+  width: 18%;
+  height: 40px;
 }
 
-nav .nav-bar ul {
+header nav .nav-bar ul {
  padding: 0;
  float: right;
 }
 
-nav .nav-bar li {
+header nav .nav-bar li {
  list-style: none;
- /*padding: 12px;*/
- /*margin: 0;*/
+ padding: 12px;
+ margin: 0;
 }
 
-nav .nav-bar li a {
+header nav .nav-bar li a {
  font-size: 1em;
  padding: 7px;
 }
 
-nav .nav-bar li a:hover {
+header nav .nav-bar li a:hover {
   color: #18BC9C;
 }
-/*
-nav .nav-bar li a:active {
+
+header nav .nav-bar li a:active {
   color: #FFF;
   background-color: #18BC9C;
 }
-*/
-/*Estilos para el encabezado/presentación de start bootstrap*/
-/*
 
-/*
+/*Estilos para el encabezado/presentación de start bootstrap*/
+
 #principal-section {
   /*outline: 1px solid orange;*/
-  /*padding: 100px 50px 124px;*/
-  /*position: relative;
-  top: 107px;*/
-  /*background-color: #18BC9C;
-  color: #FFF;
-  width: 100%;*/
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 6.5%;
+  padding-bottom: 6.8%;
+  background-color: #18BC9C;
 }
 
-/*#principal-section .container {
-  position: relative;
-  top: 70px;
-  left: 35%;/*464px;
-  outline: 1px solid blue;
-  width: 70%;
-  vertical-align: middle;
-  padding-top: 30px;
-  padding-bottom: 50px;
+
+#principal-section .container {
+  width: 100%;
 }
+
+.name {
+  display: block;
+  font-size: 4.5em;
+  padding-top: 2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.star {
+  padding-top: 1.5%;
+}
+
+.specialties {
+  display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.55em;
+    padding-top: 1.3%;
+}
+
+.star i {
+  color: #FFF;
+}
+
+#principal-section .star hr {
+  border: 3px solid #FFF;
+  width: 100px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+/*
+#principal-section .star hr .fa-star::after {
+  padding: 0 10px 0 10px;
+}
+
+#principal-section .star hr .fa-star::before {
+  padding: 0 10px 0 10px;
+}*/
 
 /*#principal-section .star {*/
   /*outline: 1px solid green;
