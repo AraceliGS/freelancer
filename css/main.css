@@ -116,7 +116,6 @@ nav .nav-bar li a:active {
 /*Estilos para el encabezado/presentación de start bootstrap*/
 
 #principal-section {
-  /*outline: 1px solid orange;*/
   width: 100%;
   position: relative;
   text-align: center;
@@ -134,6 +133,7 @@ nav .nav-bar li a:active {
   font-size: 4.7em;
   padding-top: 1.38%;
   font-family: 'Montserrat', sans-serif;
+  color: #FFF;
 }
 
 .star {
@@ -142,7 +142,7 @@ nav .nav-bar li a:active {
 }
 
 .specialties {
-  display: inline-block;
+  color: #FFF;
   font-family: 'Lato', sans-serif;
   font-size: 1.55em;
   padding-top: 1.10%;
@@ -171,8 +171,6 @@ nav .nav-bar li a:active {
 
 #portfolio h2 {
   width: 100%;
-  /*outline: 1px solid yellow;*/
-  letter-spacing: 1px;
   font-size: 2.9em;
   padding-top: 3px;
 }
@@ -201,14 +199,13 @@ nav .nav-bar li a:active {
   right: 0.5%;
 }
 
-#portfolio .row .figure{
-  display: inline-block;
+.figure{
   width: 350px;
   height: 253px;
   margin-left: 2%;
 }
 
-#portfolio .row .figure img {
+.figure img {
   width: 100%;
   height: 100%;
 }
@@ -323,37 +320,32 @@ nav .nav-bar li a:active {
 
 
 /*Estilos para la sección Contact/Contact me*/
-/*
-#contact {
-  outline: 1px solid teal;
-}
-*/
+
 #contact .container {
-   padding-top: 320px;
-   padding-bottom: 0;
-  /*outline: 1px solid lightgreen;*/
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #contact h2 {
-  /*outline: 1px solid gold;*/
   font-size: 3em;
   color: #212529;
   margin: 0;
   text-align: center;
   height: 50px;
   position: relative;
-  bottom: 205px;
-  /*padding-right: 4px;*/
+  bottom: 5%;
 }
 
 #contact .star {
-  /*outline: 1px solid skyblue;*/
   text-align: center;
   color: #2C3E50;
   margin: 30px auto 20px;
   position: relative;
   right: 0;
-  bottom: 215px;
+  bottom: 33px;
 }
 
 #contact hr {
@@ -365,27 +357,20 @@ nav .nav-bar li a:active {
   bottom: 1px;
 }
 
+#info {
+  text-align: center;
+  position: relative;
+  bottom: 5%;
+}
 
-#contact .small-container {
-  /*outline: 1px solid blue;*/
+ .small-container {
   height: 110px;
   width: 730px;
   padding-top: 30px;
   border-bottom: 1px solid #EEE;
 }
 
-#contact .star hr .fa-star::after {
-  padding: 0 10px 0 10px;
-}
-
-#contact .star hr .fa-star::before {
-  padding: 0 10px 0 10px;
-}
-
-#contact #info .small-container input {
-  /*outline: 1px solid pink;*/
-  display: inline-block;
-  /*margin-bottom: 50px;*/
+.small-container input {
   height: 25%;
   width: 100%;
   font-family: 'Lato', sans-serif;
@@ -395,53 +380,16 @@ nav .nav-bar li a:active {
   outline: 0;
 }
 
-#contact #info {
-  /*outline: 1px solid silver;*/
-  /*height: 1000px;*/
-  text-align: center;
-  position: relative;
-  bottom: 210px;
-}
-/*
-#contact #info #info form {
-  /*outline: 1px solid green;}*/
 
-#contact #info button {
-  margin-top: 25px;
-  display: block;
-  /*outline: 1px solid skyblue;*/
-  text-decoration: none;
-  display: block;
-  outline: 0;
-  background-color: #18BC9C;
-  border: 4px solid #18BC9C;
-  color: #FFF;
-  width: 85px;
-  height: 55px;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.25em;
-  position: relative;
-  left: 23%/*585px*/;
-  bottom: 0.5%/*1px*/;
-  letter-spacing: 0.2px;
-  vertical-align: middle;
-}
-
-#contact #info #different-container {
-  /*outline: 1px solid maroon;*/
+#different-container {
   height: 258px;
   width: 730px;
   border-bottom: 1px solid #EEE;
 }
 
-#contact #info #different-container input{
-  /*outline: 1px solid pink;*/
-  display: inline-block;
-  /*margin-bottom: 50px;*/
+#different-container input{
   border: none;
-  height: 50%;
+  height: 35%;
   width: 100%;
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
@@ -449,19 +397,47 @@ nav .nav-bar li a:active {
   outline: 0;
 }
 
-#contact #info button:hover {
+#different-container, .small-container {
+  position: relative;
+  bottom: 30px;
+}
+
+
+#info button {
+ margin-top: 25px;
+ display: block;
+ text-decoration: none;
+ display: block;
+ outline: 0;
+ background-color: #18BC9C;
+ border: 4px solid #18BC9C;
+ color: #FFF;
+ width: 80px;
+ height: 50px;
+ border-radius: 5px;
+ padding: 2px 10px;
+ font-family: 'Lato', sans-serif;
+ font-size: 1.25em;
+ position: relative;
+ left: 30.7%;
+ bottom: 30px;
+ letter-spacing: 0.2px;
+ vertical-align: middle;
+}
+
+#info button:hover {
   color: #FFF;
   border-color: #11866F;
   background-color: #128F76;
 }
 
-#contact #info button:active {
+#info button:active {
   color: #FFF;
   border-color: #1C7430;
   background-color: #1E7E34;
 }
 
-#contact #info button:visited {
+ #info button:visited {
   color: #FFF;
   border-color: #0A4B3E;
   background-color: #128F76;
@@ -470,7 +446,6 @@ nav .nav-bar li a:active {
 /*Estilos para el Pie de Página*/
 
 footer {
-  /*outline: 1px solid red;*/
   background-color: #2C3E50;
   color: #FFF;
 }
@@ -482,7 +457,6 @@ footer {
 }
 
 #footer-top h3 {
-  /*outline: 1px solid gold;*/
   text-align: center;
   font-size: 1.65em;
   position: relative;
@@ -496,17 +470,16 @@ footer {
 }
 
 #footer-top div {
-  /*outline: 1px solid red;*/
-  /*margin-top: 5px;*/
   margin-right: 10px;
   width: 380px;
-  position: relative;
-  left: 2%;
 }
+
 
 /*Estilos a la primera de las 3 cajas que hay en la parte superior del footer*/
 .box_1 {
-  padding-left: 5%;
+  padding-left: 4.5%;
+  position: relative;
+  left: 17.7%;
 }
 
 .box_1 h3 {
@@ -516,28 +489,25 @@ footer {
 .box_1 p {
   position: relative;
   bottom: 9px;
-  /*outline: 1px solid green;*/
   width: 100%;
   line-height: 1.5;
 }
 
 /*Estilos a la segunda de las 3 cajas que hay en la parte superior del footer*/
 
-
-#footer-top .box_2 {
+.box_2 {
   position: relative;
   bottom: 21px;
-  left: 3.5%;
+  left: 19.35%;
 }
 
-#footer-top .box_2 ul {
-  /*outline: 1px solid aqua;*/
+.box_2 ul {
+
   height: 60px;
   width: 100%;
 }
 
-#footer-top .box_2 li {
-  /*outline: 1px solid gold;*/
+.box_2 li {
   height: 50px;
   width: 50px;
   margin: 2px;
@@ -545,16 +515,14 @@ footer {
   left: 2%;
 }
 
-#footer-top .box_2 a {
-  /*outline: 1px solid fuchsia;*/
+.box_2 a {
   display: inherit; /*Inherit me permite que este elemento herede el valor de display de su padre. Además me permite no tener que estar colocandolo en mi index.html*/
   height: inherit;
   width: inherit;
   border-radius: 25px;
 }
 
-#footer-top .box_2 i {
-  /*outline: 1px solid teal;*/
+.box_2 i {
   display: inherit;
   height: inherit;
   width: inherit;
@@ -567,7 +535,7 @@ footer {
   color: #FFF;
 }
 
-#footer-top .box_2 i:hover, #footer-top .box_2 i:active {
+.box_2 i:hover, #footer-top .box_2 i:active {
   background: #FFF;
   color: #18BC9C;
   outline: 0;
@@ -576,13 +544,13 @@ footer {
 
 /*Estilos a la tercera de las 3 cajas que hay en la parte superior del footer*/
 
-#footer-top .box_3 {
+.box_3 {
   position: relative;
   top: 28px;
+  left: 18.5%;
 }
 
-#footer-top .box_3 p {
-  /*outline: 1px solid green;*/
+.box_3 p {
   line-height: 1.5;
   position: relative;
   width: 360px;
@@ -590,14 +558,14 @@ footer {
   left: 10px;
 }
 
-#footer-top .box_3 p a {
+.box_3 p a {
   color: #18BC9C;
   text-decoration: none;
 }
 
 /*Estilos para la parte inferior del footer*/
+
 #footer-bottom {
-  /*outline: 1px solid silver;*/
   text-align: center;
   font-family: 'Lato', sans-serif;
   padding: 28.5px 0;
