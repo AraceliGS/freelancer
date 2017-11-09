@@ -75,14 +75,15 @@ nav {
 }
 
 .start-bootstrap {
-    font-size: 1.9em;
-    position: relative;
-    left: 20.8%;
-    bottom: 5px;
-    text-align: left;
+  font-size: 1.9em;
+  position: relative;
+  left: 20.8%;
+  bottom: 5px;
+  width: 20%;
+  text-align: left;
 }
 
-nav .container a {
+nav .container .nav-bar a {
  text-decoration: none;
  color: #FFF;
   width: 18%;
@@ -116,7 +117,7 @@ nav .nav-bar li a:active {
 /*Estilos para el encabezado/presentación de start bootstrap*/
 
 #principal-section {
-  width: 100%;
+  min-width: 1500px;
   position: relative;
   text-align: center;
   padding-top: 10.5%;
@@ -162,7 +163,7 @@ nav .nav-bar li a:active {
 /*Estilos para la sección portafolio*/
 
 #portfolio {
-  width: 100%;
+  min-width: 1500px;
   position: relative;
   text-align: center;
   padding-top: 3%;
@@ -237,7 +238,7 @@ nav .nav-bar li a:active {
   background-color: #18BC9C;
   padding-top: 3%;
   padding-bottom: 2.2%;
-  width: 100%;
+  min-width: 1500px;
   position: relative;
   text-align: center;
 }
@@ -341,6 +342,10 @@ nav .nav-bar li a:active {
 
 
 /*Estilos para la sección Contact/Contact me*/
+
+#contact {
+  min-width: 1500px;
+}
 
 #contact .container {
   width: 100%;
@@ -469,6 +474,7 @@ nav .nav-bar li a:active {
 footer {
   background-color: #2C3E50;
   color: #FFF;
+  min-width: 1500px;
 }
 
 /*Estilos para la parte superior del footer*/
